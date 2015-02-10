@@ -1,0 +1,52 @@
+<meta>
+	<info author="Domen" name="Login" type="script" version="a0.6" />
+
+  
+	<!--File type: server-->
+	<script src="server.lua" type="server"/>
+	<!--File type: client-->
+	<script src="client.lua" type="client"  cache="false" />
+	<script src="textlib.lua" type="client" cache="false" />
+	
+
+	<!--File type: .png-->
+	<file src="images/background_1.png"/>
+	<file src="images/background_2.png"/>
+	<file src="images/background_3.png"/>
+	<file src="images/background_4.png"/>
+	<file src="images/background_5.png"/>
+	<file src="images/background_6.png"/>
+	<file src="images/background_7.png"/>
+	<file src="images/background_8.png"/>
+	<file src="images/background_9.png"/>
+	<file src="images/background_10.png"/>
+	<file src="images/background_11.png"/>
+	<file src="images/background_12.png"/>
+	<file src="images/background_13.png"/>
+	<file src="images/background_14.png"/>
+	<file src="images/background_15.png"/>
+	<file src="images/background_16.png"/>
+	<file src="images/background_17.png"/>
+	<file src="images/background_18.png"/>
+	<file src="images/background_19.png"/>
+	<file src="images/background_20.png"/>
+	<file src="images/background_21.png"/>
+	<file src="images/background_22.png"/>
+	<file src="images/news.png"/>
+	<file src="images/news1.png"/>
+	<file src="images/button_mouse.png"/>
+	<file src="images/button_standart.png"/>
+	<file src="images/menu.png"/>
+
+
+
+	<!--File type: .ttf-->
+	<file src="font.ttf"/>
+	<file src="font2.ttf"/>
+	<file src="font3.ttf"/>
+
+
+	<!--File type: .mp3-->
+	<file src="music.mp3"/>
+	
+</meta>
