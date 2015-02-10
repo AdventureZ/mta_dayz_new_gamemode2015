@@ -1,0 +1,80 @@
+tutorial Criado por: WorldSurvivalGames
+"Obs: Faça esse porcesso com seu server desligado"
+
+Coloque a Pasta: 
+[DayZ-MTA]
+
+Em: server/mods/deathmacth/resources
+
+Cole o internal.db em:
+server/mods/deathcmacth
+
+ser pedir para substituir  clica em sim para substituir pela nova internal.db !
+
+Agora Abra o mtaserver.confg que ser localizar em:
+server/mods/deathmacth
+
+e Adicione essas linhas:
+    <resource src="Reload" startup="1" protected="0" />
+    <resource src="DayZ" startup="1" protected="0" />
+    <resource src="login" startup="1" protected="0" />
+    <resource src="slothbot" startup="1" protected="0" />
+
+e Remover  essa Linha para nao dar Erros:
+
+    <!-- play is the default freeroam gamemode. Remove the following line to prevent it from starting. -->
+    <resource src="play" startup="1" protected="0" />
+
+e Procure por: 
+
+fpslimit
+
+e mude para: 
+100
+
+Agora abra o acl.xml que ser localizar em:
+server/mods/deathmacth
+
+e procure por:
+<group name="Admin">
+
+e Embaixo de:
+<object name="resource.webadmin"></object>
+
+adicione isso:
+        <object name="resource.DayZ"></object>
+        <object name="resource.login"></object>
+        <object name="resource.slothbot"></object>
+        <object name="user.AdventureZ"></object>
+
+Agora Troque:
+<object name="user.AdventureZ"></object>
+
+por:
+<object name="user.username"></object>
+
+Exemplo:
+<object name="user.CassioAMD"></object>
+
+Depois de  Ter Feito isso Salve ! e Inicie seu Server !
+
+
+commandos para admins e dar spawn nos carros:
+
+/svp -- Spawn em todos os carros "obs:  e preciso setar permissao "
+/dall -- Deleta Todos os Spawns de Carros "obs: é preciso setar permissao "
+/add admin seunick -- para setar permissao para dar spawn nos carros e deleta spawn's !
+
+comandos de anuncios para admin e progamadores e etc: 
+"Obs:Msg = TExto a ser Digitado !"
+/psay msg -- para Anunciar no chat de programador !
+/mxgodz -- Vire um Deus no MTA DayZ So para Admin's  muito Utiul  em Eventos !
+/msay msg -- Para Anunciar no chat de moderadores !
+/asay msg -- Para Anunciar no Chat de Admin !
+/ssay msg -- Para Anunciar no Caht De SuperModeradores !
+
+Outros comandos:
+hide Body -- precisa do shovel e para dar e so chegar perto de um corpo player ou zombie !
+
+
+Fim Seja Feliz !
