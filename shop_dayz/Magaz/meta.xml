@@ -1,0 +1,6 @@
+<meta>
+	<info name="Магазин" type="script" author="maksam07" version="1.0.2" description="" />
+	<script src="shopPanel_server.lua" type="server"/>
+	<script src="shopPanel_client.lua" type="client" cache="false"/>
+	<script src="shopPanel_count.lua" type="client" cache="false"/>
+</meta>

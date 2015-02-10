@@ -1,0 +1,5 @@
+<map>
+   <radararea posX="-406.29998779297" posY="1280.8000488281" sizeX="250" sizeY="350" color="#00FF007F" dimension="0" /> 
+   <radararea posX="-2561" posY="-751" sizeX="190" sizeY="190" color="#00FF007F" dimension="0" /> 
+   <radararea posX="2444" posY="2660" sizeX="190" sizeY="190" color="#00FF007F" dimension="0" /> 
+</map>
