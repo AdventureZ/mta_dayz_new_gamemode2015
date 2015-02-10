@@ -1,0 +1,8 @@
+createBlip ( -1164, -1031, 130, 56 ) --Base militar abandonada
+createBlip ( -10.174736022949,-2806.1967773438, 40.621788024902, 56 ) -- Ilha BSL
+createBlip ( 1174.8404541016,-2036.9178466797, 77.29630279541, 56 ) -- Prefeitura Abandonada
+createBlip ( 1960.8568115234,-2176.447265625, -2176.447265625, 56 ) -- Refugio militar (LS)
+createBlip ( 2882.5769042969,-2025.8562011719, 6.7650380134583, 56 ) -- Base Militar (LS-Praia)
+createBlip ( 2388.35546875,-128.12927246094, 28.606456756592, 56 ) -- Refugio Doidao
+createBlip ( 2496.2856445313,2773.6301269531, 10.842951774597, 56 ) -- Area Cientifica (LV)
+createBlip ( 2856.7526855469,-344.48098754883, 7.6268177032471, 56 ) -- Ilha Militar Abandonada
